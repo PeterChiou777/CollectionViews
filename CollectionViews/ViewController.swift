@@ -20,6 +20,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         view.addSubview(collectionView)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        //test
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         collectionView.frame = view.bounds
