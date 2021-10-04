@@ -14,6 +14,7 @@
 		D08A354727081B44009774BA /* CollectionViews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D08A354527081B44009774BA /* CollectionViews.xcdatamodeld */; };
 		D08A354927081B48009774BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08A354827081B48009774BA /* Assets.xcassets */; };
 		D08A354C27081B48009774BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08A354A27081B48009774BA /* LaunchScreen.storyboard */; };
+		D08A355427082136009774BA /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A355327082136009774BA /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D08A354827081B48009774BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D08A354B27081B48009774BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08A354D27081B48009774BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08A355327082136009774BA /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D08A353C27081B44009774BA /* AppDelegate.swift */,
 				D08A353E27081B44009774BA /* SceneDelegate.swift */,
 				D08A354027081B44009774BA /* ViewController.swift */,
+				D08A355327082136009774BA /* PhotoCollectionViewCell.swift */,
 				D08A354227081B44009774BA /* Main.storyboard */,
 				D08A354827081B48009774BA /* Assets.xcassets */,
 				D08A354A27081B48009774BA /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08A354127081B44009774BA /* ViewController.swift in Sources */,
+				D08A355427082136009774BA /* PhotoCollectionViewCell.swift in Sources */,
 				D08A353D27081B44009774BA /* AppDelegate.swift in Sources */,
 				D08A354727081B44009774BA /* CollectionViews.xcdatamodeld in Sources */,
 				D08A353F27081B44009774BA /* SceneDelegate.swift in Sources */,
